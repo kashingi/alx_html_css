@@ -1,0 +1,63 @@
+
+header{
+    background-color: blueviolet;
+    height: 60px;
+}
+header nav{
+    color: blueviolet;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+header nav ul{
+    display: inline-flex;
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+header nav ul li{
+    margin-left: 120px;
+}
+header nav ul li a{
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    font-size: 15px;
+    background-color: aqua;
+    margin-top: -20px;
+}
+main .container{
+    width: 540px;
+    height: 400px;
+    margin: auto;
+}
+main article{
+    margin: auto;
+    padding: 15px;
+}
+main article h1:hover{
+    text-transform: capitalize;
+}
+main article h3:hover{
+    text-transform: lowercase;
+}
+main aside input{
+    background-color: aqua;
+    margin-left: 20px;
+    border-radius: 15px;
+    border-bottom: none;
+    height: 20px;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 25%;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 10px;
+}
