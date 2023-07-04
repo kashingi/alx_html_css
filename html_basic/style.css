@@ -53,11 +53,12 @@ main aside input{
     margin-top: 10px;
 }
 footer{
-    margin-top: 50px;
+    margin-top: 20%;
     text-align: left;
     margin-left: 25%;
 }
 footer a{
     text-decoration: none;
     margin-left: 10px;
+    margin: 20px;
 }
