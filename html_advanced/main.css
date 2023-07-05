@@ -34,38 +34,35 @@ header nav ul div li a{
     color: black;
     text-decoration: none;
     margin: 30px;
-    background-color: aqua;
 }
-.banner{
+main{
+    
+}
+main section{
+    height: 400px;
+    margin: 5px;
+    border-bottom: none;
+}
+main section .container{
     background-color: rgb(194, 149, 145);
     background-image: url('https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -25px;
-}
-.banner .container{
-    height: 400px;
-    margin: 5px;
-    border-bottom: none;
-}
-.banner .container .container{
-    position: relative;
-    margin-top: 2px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
     text-align: center;
-
 }
-.banner .container .container h3:hover{
+main section .container h3:hover{
     text-transform: capitalize;
 }
-.banner .container .container p{
+main section .container p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.banner .container .container h3{
+main section .container h3{
     text-transform: capitalize;
 }
-.banner .container .container button{
+main section .container button{
     background-color: rgb(227, 55, 230);
     border-radius: 15px;
     height: 30px;
@@ -73,35 +70,57 @@ header nav ul div li a{
     color: aliceblue;
     text-transform: uppercase;
 }
-.banner .container .container button a{
+main section .container button a{
     text-decoration: none;
 }
-.banner .container .container h4{
+main .container .container h4{
     color: black;
     text-align: center;
 }
-.banner .container .container h4 b{
+main section .container h4 b{
     color: blueviolet;
     margin: 10px;
     font-weight: 900;
 }
-.banner .container .container ul{
+main section .container ul{
     margin: 20px;
 }
-.banner .container .container ul li{
+main section .container ul li{
     display: inline-flex;
     margin: 20px;
 }
-.banner .container .container ul li div{
+main section .container ul li div{
     font-size: 13px;
     margin: 1px;
 }
-.banner .container .container ul li img{
+main section .container ul li img{
     height: 100px;
     width: 80px;
     padding: 2px;
     border-radius: 50%;
 }
-.banner .container .container ul li div p{
+main section .container ul li div p{
     margin-top: 2px;
+}
+main .session {
+    background-color: blueviolet;
+    display: inline-flex;
+    height: 45%;
+    width: 100vw;
+    margin-left: -3px;
+    padding-top: 50px;
+    padding-left: 20%;
+}
+main .session img{
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+main .session div {
+    margin-left: 40px;
+    margin-left: 80px;
+}
+main .session div h4{
+    margin-top: -8px;
+
 }
