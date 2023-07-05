@@ -1,0 +1,107 @@
+
+header{
+    background-color: blueviolet;
+    height: 60px;
+    border-bottom: none;
+}
+header nav{
+    color: black;
+}
+header nav ul{
+    margin: 3px;
+    padding: 2px;
+}
+header nav ul div{
+    display: inline-flex;
+    margin-left: 20px;
+}
+header nav ul div img{
+    height: 50px;
+    width: 80px;
+}
+header nav ul div p{
+    margin-left: 20px;
+}
+header nav ul div div li{
+    margin-top: 15px;
+    font-size: 15px;
+    position: relative;
+    left: 34rem;
+    list-style-type: none;
+    
+}
+header nav ul div li a{
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    background-color: aqua;
+}
+.banner{
+    background-color: rgb(194, 149, 145);
+    background-image: url('https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
+.banner .container{
+    height: 400px;
+    margin: 5px;
+    border-bottom: none;
+}
+.banner .container .container{
+    position: relative;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+.banner .container .container h3:hover{
+    text-transform: capitalize;
+}
+.banner .container .container p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner .container .container h3{
+    text-transform: capitalize;
+}
+.banner .container .container button{
+    background-color: rgb(227, 55, 230);
+    border-radius: 15px;
+    height: 30px;
+    margin-top: 2px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.banner .container .container button a{
+    text-decoration: none;
+}
+.banner .container .container h4{
+    color: black;
+    text-align: center;
+}
+.banner .container .container h4 b{
+    color: blueviolet;
+    margin: 10px;
+    font-weight: 900;
+}
+.banner .container .container ul{
+    margin: 20px;
+}
+.banner .container .container ul li{
+    display: inline-flex;
+    margin: 20px;
+}
+.banner .container .container ul li div{
+    font-size: 13px;
+    margin: 1px;
+}
+.banner .container .container ul li img{
+    height: 100px;
+    width: 80px;
+    padding: 2px;
+    border-radius: 50%;
+}
+.banner .container .container ul li div p{
+    margin-top: 2px;
+}
